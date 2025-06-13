@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Saludar
+      uses: sjlvanq/prueba-github-actions@v1.2
+    
     - name: Checkout
       uses: actions/checkout@v4.2.2
 
